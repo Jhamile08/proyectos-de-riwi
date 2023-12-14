@@ -1,0 +1,122 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    color: #692e7a;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.container{
+    width: 120rem;
+    margin: 0 auto;
+
+}
+
+.nav-bg {
+    background-color: #b364d1;
+    
+}
+
+.nav{
+
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fbf6fd;
+    margin: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+}
+.section1{
+    margin-top: 3rem;
+}
+.section1 h2{
+    text-align: center;
+    color: #692e7a;
+}
+.div1{
+    text-align: center;
+}
+
+.section2 {
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+}
+.div2 p{
+    padding: 2.5rem;
+}
+.section3{
+
+    background-color: #deb9ee;
+    padding: 2rem;
+    justify-content: center;
+}
+.section3 h2 { 
+    text-align: center;
+    color: #692e7a;
+    margin-bottom: 3rem;
+}
+
+.div3{
+    display: flex;
+}
+.div-text{
+    margin: 2rem;
+}
+.div-text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    text-align: center;
+}
+
+.section4 {
+    justify-content: center;
+    padding: 2rem;
+}
+.section4 h2{
+    text-align: center;
+    color: #692e7a;
+    margin-bottom: 3rem;
+}
+
+.section4 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+  display: flex;
+  justify-content: center;
+}
+
+.section5  h3{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}

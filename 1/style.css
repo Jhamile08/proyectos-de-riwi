@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
+
+.box{
+    border: 2px dashed black;
+}
+
+.element1{
+    background: #ff0000;
+    
+
+}
+.element2{
+    background: #ff7503;
+    grid-column: 2/5;
+   
+}
+.element3{
+    background: #d4bf06;
+    grid-column: 5/9;
+  
+
+}
+.element4{
+    background: #58d60f;
+   
+}
+.element5{
+    background: #02fcfc;
+    grid-column: 1/4;
+
+}
+.element6{
+    background: #4deb0f;
+    grid-column: 4/7;
+    
+}
+.element7{
+    background: #0dc95b;
+    grid-column: 7/10;
+    
+}
+.element8{
+    background: #04c7c7;
+    grid-column: 1/4;
+    grid-row: 3/6;
+   
+}
+.element9{
+    background: #0766f5;
+    grid-column: 4/7;
+    
+}
+.element10{
+    background: #08f3cc;
+    grid-column: 7/10;
+    grid-row: 3/5;
+   
+}
+.element11{
+    background: #84ec0c;
+    grid-column: 4/7;
+
+}
+.element12{
+    background: #36099e;
+    grid-column:4/7;
+
+}
+.element13{
+    background: #9f09bd;
+    grid-column:7/10;
+
+}
+.element14{
+    background: #ff01b3;
+    grid-row: 6/9;
+    
+    
+}
+.element15{
+    background: #8a1818;
+    grid-row: 6/9;
+  
+}
+.element16{
+    background: #4e0664;
+    grid-row: 7/8;
+    
+
+    
+}
+.element17{
+    background: #26a059;
+    grid-row: 8/9;
+    
+
+
+}
+.element18{
+    background: #338585;
+
+}
+.element19{
+    background: #7e2f2f;
+    grid-row: 6/9;
+
+}
+.element20{
+    background: #4d2b7a;
+}
+.element21{
+    background: #1aaa7f;
+    grid-row: 7/8;
+ 
+}
+.element22{
+    background: #894c8b;
+    grid-row: 8/9;
+}
+.element23{
+    background: #c49413;
+    grid-row: 6/9;
+ 
+
+}
+.element24{
+    background: #0de030;
+    grid-column: 7/10;
+    grid-row: 6/9;
+ 
+}

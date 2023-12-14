@@ -1,0 +1,113 @@
+
+
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    border-width: 0.5rem;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+header{
+    background-color: rgb(101, 3, 230);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+header h1{
+    font-size: 2.5rem;
+}
+
+header a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    text-transform: lowercase;
+    padding: 0.7rem;
+    border-radius: 1rem;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+section img{
+    width: 40rem;
+    border-radius: 2rem;
+    margin: 2rem;
+
+}
+article {
+    margin: 1rem;
+}
+
+
+.detalles h2{
+    margin-bottom: 2.5rem;
+}
+
+.cuadros {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.cuadrado{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.uno{
+    background-color: aqua;
+}
+.dos{
+    background-color: rgb(164, 27, 182);
+}
+.tres{
+    background-color: rgb(199, 30, 30);
+}
+.cuatro{
+    background-color: rgb(21, 247, 115);
+}
+.cinco{
+    background-color: rgb(241, 220, 22);
+}
+.seis{
+    background-color: aqua;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
